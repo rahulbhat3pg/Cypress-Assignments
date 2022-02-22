@@ -1,0 +1,27 @@
+{
+    
+"ItemName": ".inventory_item_name",
+"ItemPrice": ".inventory_item_price",
+"Payment_Information" : ".summary_value_label",
+"Shipping_Information" : ".summary_value_label",
+"Subtotal":".summary_subtotal_label",
+"Tax_es":".summary_tax_label",
+"Total_Cost" : ".summary_total_label",
+"FinishButton":"#finish",
+"CancelButton":"#cancel",
+"HeaderMessage":".complete-header",
+"CartLink":".shopping_cart_link",
+"CheckoutButton":"#checkout",
+"ContinueButton":"#continue",
+"Product_Name" : "#add-to-cart-sauce-labs-backpack",
+"Product_Name_Highest" :"#add-to-cart-sauce-labs-fleece-jacket",
+"Product_Name_1":"#add-to-cart-sauce-labs-onesie",
+"ErrorMessage" : "[data-test= error]",
+"ProductsDom": ".title",
+"Filter" : ".product_sort_container",
+"First_Name":"#first-name",
+"Last_Name":"#last-name",
+"Postal_Code":"#postal-code",
+"Order_Complete_Header":".complete-header"
+
+}
