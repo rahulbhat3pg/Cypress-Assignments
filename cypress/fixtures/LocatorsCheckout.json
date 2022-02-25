@@ -1,0 +1,6 @@
+{
+ 
+    "Locators" : [".inventory_item_name",".inventory_item_price",".inventory_item_name",".inventory_item_price",".summary_value_label",".summary_value_label",".summary_subtotal_label",".summary_tax_label",".summary_total_label"],
+
+    "Value" : ["Sauce Labs Backpack","29.99","Sauce Labs Onesie","7.99","SauceCard #31337","FREE PONY EXPRESS DELIVERY!","37.98","3.04", "41.02"]
+}

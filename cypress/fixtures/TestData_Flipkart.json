@@ -1,6 +1,16 @@
 {
     "url": "https://www.flipkart.com/",
-    "MouseOverElement_locator" : ".xtXmba",
-    "MouseOverElement_Text" : "Electronics"
-   
+    "MouseOverElement_Text": "Electronics",
+    "MouseOverElement_Text1": "Laptop Accessories",
+    "MouseOverElement_Text2": "Laptop Keyboards",
+    "Price_Range": "._2YxCDZ",
+    "SortPrice_HighToLow": "Price -- High to Low",
+    "HighestProductName_Locator": "[title = 'HP DFF+ Wired USB Desktop Keyboard']",
+    "HighestProductPrice_Locator": "._30jeq3",
+    "HighestProduct_Price": "₹2,000",
+    "HighestProduct_Title": "HP DFF+ Wired USB Desktop Keyboard",
+    "MinPrice" : "1000",
+    "MaxPrice" : "2000",
+    "TotalProducts_Locator" : "._2tDckM",
+    "TotalProducts_Value" : "(Showing 1 – 40 products of 5,111 products)"
 }

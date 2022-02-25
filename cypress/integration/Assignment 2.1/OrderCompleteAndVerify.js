@@ -11,6 +11,10 @@ describe('verifyProductShippingAndPaymentInfo', function () {
             this.path = path;
         })
 
+        cy.fixture('LocatorsCheckout').then(loop => { //'Locators'(file name) under fixtures(folder) having data
+            this.loop = loop;
+        })
+
     });
 
     it("AddVerifyAndDisplayProductInfoAndMessage", function () {
@@ -20,17 +24,10 @@ describe('verifyProductShippingAndPaymentInfo', function () {
         cy.checkout(this.path.CartLink, this.path.CheckoutButton, this.path.First_Name, this.credentials.FirstName, this.path.Last_Name, this.credentials.LastName,
             this.path.Postal_Code, this.credentials.PostalCode, this.path.ContinueButton);
         //method to checkout (in commands.js file under support folder) with data fetched from fixtures 
-        cy.verifyItemDetailsOnCheckOut(this.credentials.VerifyOnCheckout, this.path.Order_Complete_Header
-            , this.credentials.OrderCompleteMessage);
+        cy.verifyItemDetailsOnCheckOut(this.loop.Locators, this.loop.Value, this.path.FinishButton, this.path.Order_Complete_Header, this.credentials.OrderCompleteMessage);
         //method to verify details of product added in cart (in commands.js file under support folder) with data fetched from fixtures
 
 
 
     })
 })
-//for
-//Arr [] = [itemname,,price]
-//this.path.ItemName,this.credentials.ProductName,this.path.ItemPrice,this.credentials.ProductPrice,
-                                       //this.path.ItemName,this.credentials.ProductName1,this.path.ItemPrice,this.credentials.ProductPrice1,this.path.Payment_Information
-                                       //,this.credentials.PaymentInfo,this.path.Shipping_Information,this.credentials.ShippingInfo,this.path.Subtotal,this.credentials.Subtotal
-                                       //,this.path.Tax_es,this.credentials.Tax,this.path.Total_Cost,this.credentials.Total,this.path.FinishButton,

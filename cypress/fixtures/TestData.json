@@ -19,6 +19,6 @@
     "Tax" : "3.04",
     "Total" : "41.02",
     "ErrorMessage" : "Error: First Name is required",
-    "OrderCompleteMessage":"THANK YOU FOR YOUR ORDER",
-    "var VerifyOnCheckout" : "['.inventory_item_name','Sauce Labs Backpack','.inventory_item_price','29.99','.inventory_item_name','Sauce Labs Onesie','.inventory_item_price','7.99','.summary_value_label','SauceCard #31337','.summary_value_label','FREE PONY EXPRESS DELIVERY!','.summary_subtotal_label','37.98','.summary_tax_label','3.04','.summary_total_label','41.02']"
+    "OrderCompleteMessage":"THANK YOU FOR YOUR ORDER"
 }
+
